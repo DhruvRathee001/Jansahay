@@ -1,0 +1,12 @@
+services:
+  jansahay:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:///./jansahay.db
+      SECRET_KEY: local-development-secret-change-me
+    volumes:
+      - ./uploads:/app/uploads
+      - ./jansahay.db:/app/jansahay.db
+

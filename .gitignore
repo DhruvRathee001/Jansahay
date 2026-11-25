@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+*.db
+uploads/*
+!uploads/.gitkeep
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+node_modules/
+
+# Local document-rendering and temporary artifacts
+.docx_report_work/
+tmp/
+~$*.docx
+
