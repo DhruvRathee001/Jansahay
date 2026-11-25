@@ -16,3 +16,9 @@ node_modules/
 tmp/
 ~$*.docx
 
+# Local submission documents
+JanSahay_Project_Report*.docx
+JanSahay_Project_Report*.pdf
+JanSahay_Project_Synopsis.pdf
+JanSahay_Viva_Preparation_Guide.docx
+
